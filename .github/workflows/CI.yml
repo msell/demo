@@ -10,6 +10,6 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Install Packages
-      run: npm install
+      run: yarn
     - name: Run Tests
-      run: npm test
+      run: yarn test
